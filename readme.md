@@ -3,13 +3,21 @@ by Kristina Pulliam
 
 
 ### Project Description
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Search for a various songs, albums, and podcasts. Once populated, it will provide you the album name, artisit, genres, year, etc. the song was produced in.
 
 ### API Decription 
 
--What is your API
+-What is your API?
+
+Allows you to search for various music genres, podcasts, and albums by name.
+
 -Ex code of you testing it
-``` and then the language the code is in (the back ticks to close the comment) ```
+
+```$.ajax(settings).done(function (response) {
+	console.log(response);
+});```
+
 
 ### Mockup
 
